@@ -1,0 +1,99 @@
+{% extends 'shop/basic.html' %}
+{% block title%}Home Page{% endblock %}
+{% block body %}
+<style type="text/css">
+  img {
+    height: 300px;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  body{
+    background:#eee
+}
+  .card {
+    padding: 20px;
+    margin: 100px;
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+    <div>
+      <img src="/media/shop/images/backry.png" style="height: 400px; width: 1120px;" alt="">
+    </div>
+    <hr>
+    <div class="container d-flex justify-content-center mt-100">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="product-wrapper mb-45 text-center">
+            <div class="product-img"> <a href="/shop/Cake" data-abc="true"> <img src="/media/shop/images/cake.png" alt="">
+              </a> <span class="text-center"><i class="fa fa-rupee"></i>Cake</span>
+              <div class="product-action">
+                <div class="product-action-style"> <a href="#"> <i class="fa fa-plus"></i> </a> <a href="#"> <i
+                      class="fa fa-heart"></i> </a> <a href="#"> <i class="fa fa-shopping-cart"></i> </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-wrapper mb-45 text-center">
+            <div class="product-img"> <a href="/shop/Doughnuts" data-abc="true"> <img src="/media/shop/images/dou.png" alt="">
+              </a> <span><i class="bi bi-bookmark-heart-fill"></i>Doughnuts</span>
+              <div class="product-action">
+                <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal"
+                    data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a
+                    class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a
+                    class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i
+                      class="fa fa-shopping-cart"></i> </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-wrapper mb-45 text-center">
+            <div class="product-img"> <a href="/shop/Pastrie" data-abc="true"> <img src="/media/shop/images/pre.png" alt="">
+              </a> <span><i class="fa fa-rupee"></i>Pastries </span>
+              <div class="product-action">
+                <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal"
+                    data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a
+                    class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a
+                    class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i
+                      class="fa fa-shopping-cart"></i> </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="product-wrapper mb-45 text-center">
+            <div class="product-img"> <a href="/shop/Bread" data-abc="true"> <img src="/media/shop/images/bread.png" alt="">
+              </a> <span><i class="fa fa-rupee"></i>Breads</span>
+              <div class="product-action">
+                <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal"
+                    data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a
+                    class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a
+                    class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i
+                      class="fa fa-shopping-cart"></i> </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="text-center fixed-bottom text-white" style="background-color: #caced1;">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">Backry Shop.</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+{% endblock %}
